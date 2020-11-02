@@ -32,7 +32,7 @@ module OmniAuth
       end 
 
       def raw_info
-        @raw_info ||= access_token.get("/v3/users/me").parsed['data']
+        @raw_info = access_token
       end
 
       def ssl?
