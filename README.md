@@ -1,4 +1,4 @@
-# OmniAuth Pinterest
+# OmniAuth Pinterest v3
 
 This gem contains the [OmniAuth](https://github.com/intridea/omniauth/) strategy for authenticating to [Pinterest](https://www.pinterest.com/).
 
