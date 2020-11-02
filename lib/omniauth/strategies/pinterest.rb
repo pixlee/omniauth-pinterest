@@ -32,8 +32,7 @@ module OmniAuth
       end 
 
       def raw_info
-        fields = 'first_name,id,last_name,url,account_type,username,bio,image'
-        @raw_info ||= access_token.get("/v1/me/?fields=#{fields}").parsed['data']
+        @raw_info ||= access_token.get("/v3/users/me").parsed['data']
       end
 
       def ssl?
